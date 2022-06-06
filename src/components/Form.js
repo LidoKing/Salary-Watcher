@@ -25,6 +25,7 @@ function Form() {
 
     localStorage.setItem("salary", JSON.stringify(inputs.salary));
     localStorage.setItem("hours", JSON.stringify(inputs.hours));
+    localStorage.setItem("startTime", JSON.stringify(Date.now()));
   }
 
   return (
